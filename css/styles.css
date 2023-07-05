@@ -1,0 +1,131 @@
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --white: #fff;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--white);
+  font-weight: 400;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 21px;
+  font-weight: 800;
+}
+
+.logo-web {
+  color: var(--iris);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--navyblue);
+  font-weight: 500;
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.contacts {
+  text-decoration: none;
+  color: var(--slate);
+}
+
+.contacts:hover,
+.contacts:focus,
+.contacts:active {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.order-button {
+  color: var(--white);
+  background-color: var(--iris);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus,
+.order-button:active {
+  background-color: var(--ocean);
+}
+
+.button-filters {
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-filters:hover,
+.button-filters:focus,
+.button-filters:active {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+h1 {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--navyblue);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.dark-block {
+  background-color: var(--navyblue);
+  width: 1440px;
+  height: 600px;
+}
+
+footer {
+  background-color: var(--navyblue);
+  width: 1440px;
+  height: 312px;
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
